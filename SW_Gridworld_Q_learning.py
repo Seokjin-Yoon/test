@@ -74,7 +74,7 @@ class gridWorld(object):
         if state_prime == self.goal:
             return 0
         else:
-            return -1
+            return -11
         
 def trajectoryPath(world, traj):
     world_map = np.zeros((world.row, world.col))
